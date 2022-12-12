@@ -38,18 +38,6 @@ set autowrite  " Writes on make/shell commands
 set autoread  
 set hidden "  The current buffer can be put to the background without writing to disk
 set nowrap
-
-" Pathogen https://github.com/tpope/vim-pathogen is a autoload utility for plugins
-execute pathogen#infect()
-" The solarized colorscheme 
-if has('gui_running')
-  set background=light
-  colorscheme solarized
-else
-  colorscheme desert
-  set background=dark
-endif
-
 set nocp
 " CDC = Change to Directory of Current file
 command CDC cd %:p:h
