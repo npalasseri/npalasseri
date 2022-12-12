@@ -92,6 +92,7 @@ call plug#begin()
         " Unmanaged plugin (manually installed and updated)
         Plug '~/my-prototype-plugin'
         Plug 'ericbn/vim-solarized'
+        Plug 'rafi/awesome-vim-colorschemes'
        
 
 " Initialize plugin system
