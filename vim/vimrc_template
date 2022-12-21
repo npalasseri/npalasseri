@@ -89,3 +89,9 @@ call plug#end()
 " You can revert the settings after the call like so:
 "   filetype indent off   " Disable file-type-specific indentation
 "   syntax off            " Disable syntax highlighting
+" NPalasseri personal maps
+" The following map works only if fzf plugins are instlaled
+nnoremap <C-H> :History<CR>
+if has("gui_running")
+    colorscheme onehalfdark
+endif
